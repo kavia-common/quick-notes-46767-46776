@@ -36,7 +36,22 @@ export default [
   {
     languageOptions: {
       globals: {
+        // Browser environment globals
+        window: "readonly",
         document: "readonly",
+        navigator: "readonly",
+        location: "readonly",
+        localStorage: "readonly",
+        sessionStorage: "readonly",
+        fetch: "readonly",
+        Request: "readonly",
+        Response: "readonly",
+        Headers: "readonly",
+        URL: "readonly",
+        console: "readonly",
+        alert: "readonly",
+        confirm: "readonly",
+        crypto: "readonly",
       },
     },
   },
